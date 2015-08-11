@@ -1,0 +1,7 @@
+﻿<h1>{{welcomeMessage}}</h1>
+<ul>
+    <li *ng-for="#item of items">
+        {{item}}
+    </li>
+</ul>
+<button (click)="AddItem()">Add Item</button>
